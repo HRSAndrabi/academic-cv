@@ -1,0 +1,212 @@
+% !TeX program = pdflatex
+
+\RequirePackage[l2tabu,orthodox]{nag}
+\documentclass[11pt,letterpaper]{report}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{ebgaramond}
+\usepackage{tgheros}
+
+\usepackage[USenglish]{babel}
+\usepackage[strict,autostyle]{csquotes}
+\usepackage[babel=true]{microtype}
+
+\usepackage{datetime}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{tabto}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\newcommand{\myname}{Hassan R. S. Andrabi}
+\newcommand{\listtabwidth}{1.9cm}
+\newcommand{\namefont}[1]{{\normalfont\bfseries\Huge{#1}}}
+\definecolor{cvred}{HTML}{850900}
+
+\SetTracking{encoding=*, family=\sfdefault}{30}
+\titleformat{\section}{\color{cvred}\lsstyle\sffamily\small\bfseries\uppercase}{}{}{}{}
+\titlespacing{\section}{0pt}{30pt plus 4pt minus 4pt}{8pt plus 2pt minus 2pt}
+
+\titleformat{\subsection}{\lsstyle\sffamily\footnotesize\bfseries}{}{}{}{}
+\titlespacing{\subsection}{0pt}{16pt plus 4pt minus 4pt}{4pt plus 2pt minus 2pt}
+
+\geometry{body={6.5in, 9.0in},
+    left=1.0in,
+    top=1.0in}
+
+\setlength\parindent{0em}
+\setstretch{0.9}
+\newcommand{\listitemspace}{0.25em}
+
+\renewenvironment{itemize}
+{\begin{list}{}{\setlength{\leftmargin}{0em}
+                \setlength{\parskip}{0em}
+                \setlength{\itemsep}{\listitemspace}
+                \setlength{\parsep}{\listitemspace}}}
+{\end{list}}
+
+\TabPositions{\listtabwidth}
+\newlist{tablist}{description}{3}
+\setlist[tablist]{leftmargin=\listtabwidth,
+    labelindent=0em,
+    topsep=0em,
+    partopsep=0em,
+    itemsep=\listitemspace,
+    parsep=\listitemspace,
+    font=\normalfont}
+
+\newdateformat{monthyeardate}{\monthname[\THEMONTH] \THEYEAR}
+
+\hypersetup{
+    colorlinks  = true,
+    urlcolor    = black,
+    citecolor   = black,
+    linkcolor   = black,
+    pdfauthor   = {\myname},
+    pdftitle    = {\myname: Curriculum Vitae},
+    pdfsubject  = {Curriculum Vitae},
+    pdfpagemode = UseNone
+}
+
+\begin{document}
+    \raggedright{}
+
+    \namefont{\myname}
+
+    \vspace{1em}
+    \begin{minipage}[t]{0.700\textwidth}
+        Centre for Brain, Mind, \& Markets \\
+        Department of Finance \\
+        University of Melbourne
+    \end{minipage}
+    \begin{minipage}[t]{0.295\textwidth}
+        \raggedleft{}
+        \href{mailto:hassan.andrabi@unimelb.edu.au}{hassan.andrabi@unimelb.edu.au} \\
+        +61 431 452 426 \\
+        \href{https://hassan.andra.bi}{hassan.andra.bi}
+    \end{minipage}
+
+    \section*{Education}
+
+    \begin{tablist}        
+        \item[PhD] \tab{}Decision, Risk, and Financial Sciences, University of Melbourne, 2024--present
+        % \item[Visiting] \tab{}Visiting PhD Student, Faculty of Economics, University of Cambridge, 2024
+        \item[MCom]  \tab{}Decision, Risk, and Financial Sciences, University of Melbourne, 2024
+        \item[Hons] \tab{}Finance, University of Melbourne, 2020
+        \item[BCom]  \tab{}Commerce, University of Melbourne, 2019
+    \end{tablist}
+
+    \section*{Research Areas}
+
+    \begin{itemize}
+        \item Markets: information aggregation, market design, and the role of incentives.
+        \item Computational complexity theory: combinatorial problems, phase transitions, and human problem-solving.
+        \item Simulation modelling to evaluate the health and economic impacts of public health interventions.
+    \end{itemize}
+
+    \section*{Publications}
+
+    \subsection*{Journal Articles}
+
+    \begin{tablist}
+        \item[2025] \tab{}S. Bode, A. Varsamis, Z. A. Xu, M. Jiwa, H. Andrabi, N. Egorova-Brumley, C. Morawetz.\ \enquote{When We Want to Know the Bad News: Exploring Information-Seeking for Unavoidable Pain Stimuli.} \textit{Cognition and Emotion}.\ \href{https://doi.org/10.1080/02699931.2025.2597887}{doi.org/10.1080/02699931.2025.2597887}
+        \item[2024] \tab{}D. Ait Ouakrim, T. Wilson, A. Waa, R. Maddox, H. Andrabi, S. R. Mishra, J. A. Summers, C. E. Gartner, R. Lovett, R. Edwards, N. Wilson, T. Blakely.\ \enquote{Tobacco Endgame Intervention Impacts on Health Gains and Maori: Non-Maori Health Inequity: A Simulation Study of the Aotearoa/New Zealand Tobacco Action Plan.} \textit{Tobacco Control} 2 (33), 173-184. \href{https://doi.org/10.1136/tc-2022-057655}{doi.org/10.1136/tc-2022-057655}
+        \item[2023] \tab{}S. R. Mishra, T. Wilson, H. Andrabi, D. Ait Ouakrim, A. Li, E. Akpan, R. Bentley, T. Blakely.\ \enquote{The Total Health Gains and Cost Savings of Eradicating Cold Housing in Australia.} \textit{Social Science \& Medicine} 334 (115954).\ \href{https://doi.org/10.1016/j.socscimed.2023.115954}{doi.org/10.1016/j.socscimed.2023.115954}
+        \item[2023] \tab{}With J. Szanyi, T. Wilson, S. Howe, J. Zeng, H. Andrabi, S. Rossiter, T. Blakely.\ \enquote{Epidemiologic and Economic Modelling of Optimal COVID-19 Policy: Public Health and Social Measures, Masks and Vaccines in Victoria, Australia.} \textit{The Lancet Regional Health -- Western Pacific} 32 (100675).\ \href{https://doi.org/10.1016/j.lanwpc.2022.100675}{doi.org/10.1016/j.lanwpc.2022.100675}
+    \end{tablist}
+
+    \section*{Invited Talks}
+
+    \subsection*{Seminars and Workshops}
+    \begin{tablist}
+        \item[2026] \tab{}\enquote{Incentives for Discovery in Computationally Hard Environments.} Workshop on Computational Complexity and Economic Decision Making. University of Cambridge. Cambridge, UK. May 27.
+        \item[2026] \tab{}\enquote{The Impact of Price Signals on Effort and Productivity in a `Hard' Task.} Workshop on Dynamic Decision Making: Minds, Models, and Markets. The University of Sydney. Sydney, Australia. Apr 14.
+        \item[2025] \tab{}\enquote{Phase Transition in the 0-1 Knapsack Problem.} Leverhulme International Professorship in Neuroeconomics Complexity Seminar. University of Cambridge. Cambridge, UK. Mar 3.
+        \item[2024] \tab{}\enquote{Prices as Information Signals.} Leverhulme International Professorship in Neuroeconomics Complexity Seminar. University of Cambridge. Cambridge, UK. Nov 19.
+    \end{tablist}
+
+    \subsection*{Conference Activity\footnote{Presenting author \textit{italicised} if other than first author.}}
+    \begin{tablist}
+        \item[2026] \tab{}H. Andrabi, P. Bossaerts, N. Yadav.\ \enquote{Incentives for Discovery in Computationally Hard Environments.} International Association for Research in Economic Psychology, Motives and Preferences in Economic Decisions. Castellón, Spain. Jun 9.
+        \item[2026] \tab{}H. Andrabi, P. Bossaerts, N. Yadav.\ \enquote{Incentives for Discovery in Computationally Hard Environments.} Asia-Pacific Meeting of the Economic Science Association. Melbourne, Australia. Apr 9.
+        \item[2026] \tab{}H. Andrabi, P. Bossaerts, N. Yadav.\ \enquote{The Invisible Hand: How Markets Guide Effort and Productivity} Experimental Finance Asia/Pacific. Melbourne, Australia. Apr 8.
+        \item[2026] \tab{}H. Andrabi, P. Bossaerts, N. Yadav.\ \enquote{The Impact of Price Signals on Effort and Productivity in a `Hard' Task.} Australasian Mathematical Psychology Conference. Singapore. Feb 27.
+        \item[2025] \tab{}H. Andrabi, P. Bossaerts, \textit{K. Ioannidis}, R. Woods, N. Yadav.\ \enquote{Markets or Patents? Experiments on Collective Innovation and Information Aggregation} Society for Experimental Finance Conference. Maastricht, Netherlands. 12 Jun.
+        \item[2024] \tab{}H. Andrabi, P. Bossaerts, \textit{K. Ioannidis}, R. Woods, N. Yadav.\ \enquote{Markets spread knowledge to overcome computational complexity.} Society for Experimental Finance Conference. Stavanger, Norway. 25 Jun.
+        \item[2024] \tab{}H. Andrabi, P. Bossaerts, K. Ioannidis, R. Woods, N. Yadav.\ \enquote{Markets Reveal Optimal Solutions to Complex Problems.} Society for Neuroeconomics Conference. Cascais, Portugal. 11 Oct.
+    \end{tablist}
+    
+
+    \section*{Grants and Awards}
+
+    \subsection*{Awards and Honors}
+
+    \begin{tablist}
+        \item[2025] \tab{}Vernon Smith Young Talent Award, Society for Experimental Finance. \$4,000 USD.
+        \item[2024] \tab{}Melbourne Global Scholars Award for High Achieving Students, Faculty of Business and Economics, University of Melbourne. \$1,500 AUD.
+        \item[2023] \tab{}Best Research Paper by Discipline Award (Methodology), School of Population and Global Health, University of Melbourne. \$1,500 AUD.
+        \item[2022] \tab{}MPSGH Research Achievement Award, School of Population and Global Health, University of Melbourne. \$1,500 AUD.
+    \end{tablist}
+
+    \subsection*{Competitive Scholarships}
+    \begin{tablist}
+        \item[2024] \tab{}International Study Scholarship, Faculty of Business and Economics, University of Melbourne. \$5,000 AUD.
+        \item[2023] \tab{}Doctoral Program Scholarship, Faculty of Business and Economics, University of Melbourne. \$37,000 AUD p.a.
+        \item[2014] \tab{}Kwong Lee Dow Scholarship for High Achieving Students, University of Melbourne. \$2,500 AUD.
+    \end{tablist}
+
+    \section*{Courses Taught}
+
+    \subsection*{University of Melbourne}
+
+    \begin{tablist}
+        \item[2026] \tab{}Behavioural Finance (undergraduate), TA
+        \item[2025--26] \tab{}Principles of Finance (undergraduate), TA
+        \item[2024] \tab{}Algorithmic Trading (postgraduate), TA
+        \item[2024] \tab{}Capstone Studies in Finance (postgraduate), TA
+        \item[2023--25] \tab{}Machine Learning in Finance (postgraduate), TA (2023), head TA (2024--25)
+        \item[2021] \tab{}Contemporary Epidemiology Short Course (postgraduate), Instructor
+    \end{tablist}
+
+    \section*{Professional Employment}
+
+    \begin{tablist}
+        \item[2025--] \tab{}Software Engineer (frontend), Centre for Brain, Mind, \& Markets, University of Melbourne
+
+        \item[2020--23] \tab{}Software Engineer (Simulation Modelling), Population Interventions Unit, University of Melbourne
+        \item[2019--20] \tab{}Accounting and Advisory, MJC Partners
+            
+    \end{tablist}
+
+    \section*{Service}
+
+    \subsection*{Service to the Field}
+    \begin{tablist}
+        \item [2025] \tab{}PyKP, a Python package for the 0-1 Knapsack Problem. \url{https://pykp.readthedocs.io/}.
+        \item[2023--24] \tab{}Managing Editor and Software Engineer, Australian COVID-19 Modelling Initiative (AUSCMI)
+        \item[2022] \tab{}CovStrain, a web-based tool to track global genomic sequencing data on SARS-CoV-2 mutations of interest.\ \url{https://covstrain.vercel.app/}. 1k users.
+        \item[2020] \tab{}COVIDVictoria, a web-based tool for COVID-19 Spatial Data Mapping. 2m users.
+    \end{tablist}
+
+    \subsection*{Service to the University}
+    \begin{tablist}
+        \item[2026--] \tab{}Secretary, Faculty of Business and Economics PhD Student Society, University of Melbourne
+    \end{tablist}
+
+
+    \section*{Skills}
+
+    \begin{itemize}
+        \item Programming: Python, R, Julia, React, JavaScript, Git, high-performance computing
+        \item Languages: English (native), Urdu (fluent)
+    \end{itemize}
+
+    % display today's date as Month Year after a vertical space below the end of the text
+    \begin{center}
+        \vfill
+        Updated \monthyeardate\today
+    \end{center}
+\end{document}
