@@ -257,38 +257,47 @@ teaching:
         name: Behavioural Finance
         level: undergraduate
         role: TA
+        link: https://handbook.unimelb.edu.au/2026/subjects/fnce30015
       - year: 2026
         name: Principles of Finance
         level: undergraduate
         role: TA
+        link: https://handbook.unimelb.edu.au/2026/subjects/fnce10002
       - year: 2025
         name: Machine Learning in Finance
         level: postgraduate
         role: head TA
+        link: https://handbook.unimelb.edu.au/2025/subjects/fnce90084
       - year: 2025
         name: Principles of Finance
         level: undergraduate
         role: TA
+        link: https://handbook.unimelb.edu.au/2025/subjects/fnce10002
       - year: 2024
         name: Machine Learning in Finance
         level: postgraduate
         role: head TA
+        link: https://handbook.unimelb.edu.au/2024/subjects/fnce90084
       - year: 2024
         name: Algorithmic Trading
-        level: postgraduate
+        level: undergraduate
         role: TA
+        link: https://handbook.unimelb.edu.au/2024/subjects/fnce30010
       - year: 2024
         name: Capstone Studies in Finance
         level: postgraduate
         role: TA
+        link: https://handbook.unimelb.edu.au/2024/subjects/fnce90062
       - year: 2023
         name: Machine Learning in Finance
         level: postgraduate
         role: TA
+        link: https://handbook.unimelb.edu.au/2023/subjects/fnce90084
       - year: 2021
         name: Contemporary Epidemiology Short Course
         level: postgraduate
         role: Instructor
+        link: https://mspgh.unimelb.edu.au/centres-institutes/centre-for-epidemiology-and-biostatistics/archived-news/short-course-advanced-epidemiology
 
 professional_employment:
   - year_start: 2025
