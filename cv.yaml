@@ -1,0 +1,340 @@
+meta:
+  name: Hassan R. S. Andrabi
+  affiliation:
+    unit: Centre for Brain, Mind, & Markets
+    department: Department of Finance
+    institution: University of Melbourne
+  contact:
+    email: hassan.andrabi@unimelb.edu.au
+    phone: "+61 431 452 426"
+    website: https://hassan.andra.bi
+
+education:
+  - degree: PhD
+    field: Decision, Risk, and Financial Sciences
+    institution: University of Melbourne
+    year: 2027
+    ongoing: false
+  - degree: MCom
+    field: Decision, Risk, and Financial Sciences
+    institution: University of Melbourne
+    year: 2024
+  - degree: Hons
+    field: Finance
+    institution: University of Melbourne
+    year: 2020
+  - degree: BCom
+    field: Commerce
+    institution: University of Melbourne
+    year: 2019
+
+research_areas:
+  - Markets: information aggregation, market design, and the role of incentives.
+  - "Computational complexity theory: combinatorial problems, phase transitions, and human problem-solving."
+  - Simulation modelling to evaluate the health and economic impacts of public health interventions.
+
+publications:
+  journal_articles:
+    - year: 2025
+      authors:
+        - S. Bode
+        - A. Varsamis
+        - Z. A. Xu
+        - M. Jiwa
+        - H. Andrabi
+        - N. Egorova-Brumley
+        - C. Morawetz
+      title: "When We Want to Know the Bad News: Exploring Information-Seeking for Unavoidable Pain Stimuli."
+      journal: Cognition and Emotion
+      doi: 10.1080/02699931.2025.2597887
+    - year: 2024
+      authors:
+        - D. Ait Ouakrim
+        - T. Wilson
+        - A. Waa
+        - R. Maddox
+        - H. Andrabi
+        - S. R. Mishra
+        - J. A. Summers
+        - C. E. Gartner
+        - R. Lovett
+        - R. Edwards
+        - N. Wilson
+        - T. Blakely
+      title: "Tobacco Endgame Intervention Impacts on Health Gains and Maori: Non-Maori Health Inequity: A Simulation Study of the Aotearoa/New Zealand Tobacco Action Plan."
+      journal: Tobacco Control
+      volume: 2
+      issue: 33
+      pages: 173-184
+      doi: 10.1136/tc-2022-057655
+    - year: 2023
+      authors:
+        - S. R. Mishra
+        - T. Wilson
+        - H. Andrabi
+        - D. Ait Ouakrim
+        - A. Li
+        - E. Akpan
+        - R. Bentley
+        - T. Blakely
+      title: The Total Health Gains and Cost Savings of Eradicating Cold Housing in Australia.
+      journal: Social Science & Medicine
+      volume: 334
+      article_number: "115954"
+      doi: 10.1016/j.socscimed.2023.115954
+    - year: 2023
+      authors:
+        - J. Szanyi
+        - T. Wilson
+        - S. Howe
+        - J. Zeng
+        - H. Andrabi
+        - S. Rossiter
+        - T. Blakely
+      title: "Epidemiologic and Economic Modelling of Optimal COVID-19 Policy: Public Health and Social Measures, Masks and Vaccines in Victoria, Australia."
+      journal: "The Lancet Regional Health -- Western Pacific"
+      volume: 32
+      article_number: "100675"
+      doi: 10.1016/j.lanwpc.2022.100675
+
+invited_talks:
+  seminars_and_workshops:
+    - year: 2026
+      title: Incentives for Discovery in Computationally Hard Environments.
+      authors:
+        - H. Andrabi
+        - P. Bossaerts
+        - N. Yadav
+      event: Workshop on Computational Complexity and Economic Decision Making
+      institution: University of Cambridge
+      location: Cambridge, UK
+      date: May 27
+    - year: 2026
+      title: "The Impact of Price Signals on Effort and Productivity in a 'Hard' Task."
+      authors:
+        - H. Andrabi
+        - P. Bossaerts
+        - N. Yadav
+      event: "Workshop on Dynamic Decision Making: Minds, Models, and Markets"
+      institution: The University of Sydney
+      location: Sydney, Australia
+      date: Apr 14
+    - year: 2025
+      title: Phase Transition in the 0-1 Knapsack Problem.
+      event: Leverhulme International Professorship in Neuroeconomics Complexity Seminar
+      institution: University of Cambridge
+      location: Cambridge, UK
+      date: Mar 3
+      pdf: /slides/2025_03_02-lipne-knapsack_phase_transition.pdf
+    - year: 2024
+      title: Prices as Information Signals.
+      event: Leverhulme International Professorship in Neuroeconomics Complexity Seminar
+      institution: University of Cambridge
+      location: Cambridge, UK
+      date: Nov 19
+
+  # presenting_author is null if the first author presents; otherwise, it names
+  # the author who presented (used to italicise in LaTeX and flag on the website).
+  conference_activity:
+    - year: 2026
+      authors:
+        - H. Andrabi
+        - P. Bossaerts
+        - N. Yadav
+      presenting_author: null
+      title: Incentives for Discovery in Computationally Hard Environments.
+      conference: International Association for Research in Economic Psychology, Motives and Preferences in Economic Decisions
+      location: "Castellón, Spain"
+      date: Jun 9
+    - year: 2026
+      authors:
+        - H. Andrabi
+        - P. Bossaerts
+        - N. Yadav
+      presenting_author: null
+      title: Incentives for Discovery in Computationally Hard Environments.
+      conference: Asia-Pacific Meeting of the Economic Science Association
+      location: Melbourne, Australia
+      date: Apr 9
+    - year: 2026
+      authors:
+        - H. Andrabi
+        - P. Bossaerts
+        - N. Yadav
+      presenting_author: null
+      title: "The Invisible Hand: How Markets Guide Effort and Productivity"
+      conference: Experimental Finance Asia/Pacific
+      location: Melbourne, Australia
+      date: Apr 8
+    - year: 2026
+      authors:
+        - H. Andrabi
+        - P. Bossaerts
+        - N. Yadav
+      presenting_author: null
+      title: "The Impact of Price Signals on Effort and Productivity in a 'Hard' Task."
+      conference: Australasian Mathematical Psychology Conference
+      location: Singapore
+      date: Feb 27
+      pdf: /slides/2026-02-23-AMPC_markets_vs_pp_revised.pdf
+    - year: 2025
+      authors:
+        - H. Andrabi
+        - P. Bossaerts
+        - K. Ioannidis
+        - R. Woods
+        - N. Yadav
+      presenting_author: K. Ioannidis
+      title: "Markets or Patents? Experiments on Collective Innovation and Information Aggregation"
+      conference: Society for Experimental Finance Conference
+      location: "Maastricht, Netherlands"
+      date: Jun 12
+      pdf: /slides/2025_06_12_SEF.pdf
+    - year: 2024
+      authors:
+        - H. Andrabi
+        - P. Bossaerts
+        - K. Ioannidis
+        - R. Woods
+        - N. Yadav
+      presenting_author: K. Ioannidis
+      title: Markets spread knowledge to overcome computational complexity.
+      conference: Society for Experimental Finance Conference
+      location: "Stavanger, Norway"
+      date: Jun 25
+      pdf: /slides/2024_06_25_SEF.pdf
+    - year: 2024
+      authors:
+        - H. Andrabi
+        - P. Bossaerts
+        - K. Ioannidis
+        - R. Woods
+        - N. Yadav
+      presenting_author: null
+      title: Markets Reveal Optimal Solutions to Complex Problems.
+      conference: Society for Neuroeconomics Conference
+      location: "Cascais, Portugal"
+      date: Oct 11
+
+grants_and_awards:
+  awards_and_honors:
+    - year: 2025
+      title: Vernon Smith Young Talent Award
+      organization: Society for Experimental Finance
+      amount: "$4,000 USD"
+      url: https://expfin.org/awards/2024-vernon-l-smith-young-talent-award/
+    - year: 2024
+      title: Melbourne Global Scholars Award for High Achieving Students
+      organization: Faculty of Business and Economics, University of Melbourne
+      amount: "$1,500 AUD"
+    - year: 2023
+      title: Best Research Paper by Discipline Award (Methodology)
+      organization: School of Population and Global Health, University of Melbourne
+      amount: "$1,500 AUD"
+    - year: 2022
+      title: MPSGH Research Achievement Award
+      organization: School of Population and Global Health, University of Melbourne
+      amount: "$1,500 AUD"
+
+  competitive_scholarships:
+    - year: 2024
+      title: International Study Scholarship
+      organization: Faculty of Business and Economics, University of Melbourne
+      amount: "$5,000 AUD"
+    - year: 2023
+      title: Doctoral Program Scholarship
+      organization: Faculty of Business and Economics, University of Melbourne
+      amount: "$37,000 AUD p.a."
+    - year: 2014
+      title: Kwong Lee Dow Scholarship for High Achieving Students
+      organization: University of Melbourne
+      amount: "$2,500 AUD"
+
+teaching:
+  - institution: University of Melbourne
+    courses:
+      - year: 2026
+        name: Behavioural Finance
+        level: undergraduate
+        role: TA
+      - year: 2026
+        name: Principles of Finance
+        level: undergraduate
+        role: TA
+      - year: 2025
+        name: Machine Learning in Finance
+        level: postgraduate
+        role: head TA
+      - year: 2025
+        name: Principles of Finance
+        level: undergraduate
+        role: TA
+      - year: 2024
+        name: Machine Learning in Finance
+        level: postgraduate
+        role: head TA
+      - year: 2024
+        name: Algorithmic Trading
+        level: postgraduate
+        role: TA
+      - year: 2024
+        name: Capstone Studies in Finance
+        level: postgraduate
+        role: TA
+      - year: 2023
+        name: Machine Learning in Finance
+        level: postgraduate
+        role: TA
+      - year: 2021
+        name: Contemporary Epidemiology Short Course
+        level: postgraduate
+        role: Instructor
+
+professional_employment:
+  - year_start: 2025
+    year_end: present
+    title: Software Engineer (frontend)
+    organization: Centre for Brain, Mind, & Markets, University of Melbourne
+  - year_start: 2020
+    year_end: 2023
+    title: Software Engineer (Simulation Modelling)
+    organization: Population Interventions Unit, University of Melbourne
+  - year_start: 2019
+    year_end: 2020
+    title: Accounting and Advisory
+    organization: MJC Partners
+
+service:
+  service_to_field:
+    - year: 2025
+      description: "PyKP, a Python package for the 0-1 Knapsack Problem."
+      url: https://pykp.readthedocs.io/
+    - year_start: 2023
+      year_end: 2024
+      description: Managing Editor and Software Engineer, Australian COVID-19 Modelling Initiative (AUSCMI)
+    - year: 2022
+      description: "CovStrain, a web-based tool to track global genomic sequencing data on SARS-CoV-2 mutations of interest. 1k users."
+      url: https://covstrain.vercel.app/
+    - year: 2020
+      description: "COVIDVictoria, a web-based tool for COVID-19 Spatial Data Mapping. 2m users."
+
+  service_to_university:
+    - year_start: 2026
+      year_end: present
+      role: Secretary
+      organization: Faculty of Business and Economics PhD Student Society, University of Melbourne
+
+skills:
+  programming:
+    - Python
+    - R
+    - Julia
+    - React
+    - JavaScript
+    - Git
+    - high-performance computing
+  languages:
+    - name: English
+      level: native
+    - name: Urdu
+      level: fluent

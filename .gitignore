@@ -1,0 +1,27 @@
+# Latex ancillary files
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+*.blg
+*.bbl
+*.brf
+*.run.xml
+*.bcf
+*.blx.bib
+*.blx.biblock
+*.blx.biblst
+*.blx.bibref
+*.blx.bibdata
+*.blx.bibdata.json
+*.blx.bibdata.xml
+
+.claude
