@@ -105,6 +105,16 @@ invited_talks:
         - H. Andrabi
         - P. Bossaerts
         - N. Yadav
+      event: AFAANZ Doctoral Symposium
+      institution: Accounting and Finance Association of Australia and New Zealand (AFAANZ)
+      location: Melbourne, Australia
+      date: Jul 5
+    - year: 2026
+      title: Incentives for Discovery in Computationally Hard Environments.
+      authors:
+        - H. Andrabi
+        - P. Bossaerts
+        - N. Yadav
       event: Workshop on Computational Complexity and Economic Decision Making
       institution: University of Cambridge
       location: Cambridge, UK
@@ -143,6 +153,16 @@ invited_talks:
         - N. Yadav
       presenting_author: null
       title: Incentives for Discovery in Computationally Hard Environments.
+      conference: Society for Experimental Finance
+      location: "Tolouse, France"
+      date: Jun 15
+    - year: 2026
+      authors:
+        - H. Andrabi
+        - P. Bossaerts
+        - N. Yadav
+      presenting_author: null
+      title: Incentives for Discovery in Computationally Hard Environments.
       conference: International Association for Research in Economic Psychology, Motives and Preferences in Economic Decisions
       location: "Castellón, Spain"
       date: Jun 9
@@ -152,10 +172,11 @@ invited_talks:
         - P. Bossaerts
         - N. Yadav
       presenting_author: null
-      title: Incentives for Discovery in Computationally Hard Environments.
+      title: The Effect of Price Signals on Effort and Productivity in a 'Hard' task.
       conference: Asia-Pacific Meeting of the Economic Science Association
       location: Melbourne, Australia
       date: Apr 9
+      pdf: "/slides/2026-04-10-APESA_price_signals.pdf"
     - year: 2026
       authors:
         - H. Andrabi
@@ -166,6 +187,7 @@ invited_talks:
       conference: Experimental Finance Asia/Pacific
       location: Melbourne, Australia
       date: Apr 8
+      pdf: /slides/2026-03-31-SEF_incentives.pdf
     - year: 2026
       authors:
         - H. Andrabi
