@@ -1,6 +1,6 @@
 # CV Data
 
-`cv.yaml` is the single source of truth for the curriculum vitae. The LaTeX file (`cv.tex`) and PDF (`cv.pdf`) are generated from it.
+`cv.yaml` is the single source of truth for the cv. The LaTeX file (`cv.tex`) and PDF (`cv.pdf`) are generated from it.
 
 ---
 

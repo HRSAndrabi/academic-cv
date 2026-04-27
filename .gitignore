@@ -25,3 +25,5 @@
 *.blx.bibdata.xml
 
 .claude
+
+.DS_Store
