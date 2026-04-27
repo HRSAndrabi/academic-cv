@@ -1,54 +1,59 @@
-# CV Data
+# Academic CV Template
 
-`cv.yaml` is the single source of truth for the cv. The LaTeX file (`cv.tex`) and PDF (`cv.pdf`) are generated from it.
+A YAML-driven academic CV generator. Edit one file (`cv.yaml`), run one script (`build.py`), compile the output with pdflatex.
 
----
+Based on [Geoff Boeing's CV template](https://github.com/gboeing/cv).
 
-## Schema overview
+## Requirements
 
-| Key                       | Description                                                     |
-| ------------------------- | --------------------------------------------------------------- |
-| `meta`                    | Name, affiliation, and contact details                          |
-| `education`               | Degrees, fields, institutions, and years                        |
-| `research_areas`          | Free-text bullet points                                         |
-| `publications`            | Subsections keyed by type (e.g. `journal_articles`)             |
-| `invited_talks`           | `seminars_and_workshops` and `conference_activity`              |
-| `grants_and_awards`       | `awards_and_honors` and `competitive_scholarships`              |
-| `teaching`                | Per-institution lists of courses, one entry per year per course |
-| `professional_employment` | Employment history                                              |
-| `service`                 | `service_to_field` and `service_to_university`                  |
-| `skills`                  | `programming` (list) and `languages` (list with level)          |
+- Python 3 with [PyYAML](https://pypi.org/project/PyYAML/) (`pip install pyyaml`)
+- A LaTeX distribution with pdflatex (e.g. [TeX Live](https://tug.org/texlive/) or [MiKTeX](https://miktex.org/))
+
+## Usage
+
+1. Fork or clone this repo.
+2. Edit `cv.yaml` with your details — this is the only file you need to touch.
+3. Run `python build.py` to generate `cv.tex`.
+4. Compile: `pdflatex cv.tex`
+
+## YAML schema
+
+| Key                       | Description                                            |
+| ------------------------- | ------------------------------------------------------ |
+| `meta`                    | Name, affiliation, and contact details                 |
+| `education`               | Degrees, fields, institutions, and years               |
+| `research_areas`          | Free-text bullet points                                |
+| `publications`            | Subsections keyed by type (e.g. `journal_articles`)    |
+| `invited_talks`           | `seminars_and_workshops` and `conference_activity`     |
+| `grants_and_awards`       | `awards_and_honors` and `competitive_scholarships`     |
+| `teaching`                | Per-institution course lists                           |
+| `professional_employment` | Employment history                                     |
+| `service`                 | `service_to_field` and `service_to_university`         |
+| `skills`                  | `programming` (list) and `languages` (list with level) |
 
 ### Year fields
 
-Entries use one of three patterns depending on whether they span a range:
-
 ```yaml
-year: 2024 # single year
-year_start: 2024 # open-ended or closed range
-year_end: present # "present" is a string literal
+year: 2024              # single year
+year_start: 2024        # open-ended range
+year_end: present       # "present" is a string literal
+year_start: 2020        # closed range
+year_end: 2023
 ```
 
-### `presenting_author` in conference activity
+### DOIs
 
-`presenting_author` is `null` when the first-listed author presented, or the author's name string when someone else did. This mirrors the LaTeX footnote convention of italicising non-first presenters.
+Store without the `https://doi.org/` prefix:
+
+```yaml
+doi: 10.1080/02699931.2025.2597887
+```
+
+### Presenting author (conference entries)
 
 ```yaml
 presenting_author: null          # first author presented
-presenting_author: K. Ioannidis  # this person presented instead
+presenting_author: J. Doe		 # someone else presented
 ```
 
-### DOI links
-
-DOIs are stored without the `https://doi.org/` prefix. Prepend it when generating links:
-
-```python
-url = f"https://doi.org/{entry['doi']}"
-```
-
----
-
-## Editing the CV
-
-1. Edit `cv.yaml` — this is the only file you need to touch for content changes.
-2. Re-run `build.py` to regenerate `cv.tex` / `cv.pdf`.
+Non-first presenters are italicised in the output, with a footnote explaining the convention.
