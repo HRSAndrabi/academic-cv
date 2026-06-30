@@ -118,7 +118,8 @@ invited_talks:
       event: Workshop on Computational Complexity and Economic Decision Making
       institution: University of Cambridge
       location: Cambridge, UK
-      date: May 27
+      date: May 28
+      pdf: /slides/2026-05-29-lipne_markets_workshop.pdf
     - year: 2026
       title: "The Impact of Price Signals on Effort and Productivity in a 'Hard' Task."
       authors:
@@ -129,6 +130,7 @@ invited_talks:
       institution: The University of Sydney
       location: Sydney, Australia
       date: Apr 14
+      pdf: /slides/2026-04-13-ddm_workshop_price_signals.pdf
     - year: 2025
       title: Phase Transition in the 0-1 Knapsack Problem.
       event: Leverhulme International Professorship in Neuroeconomics Complexity Seminar
@@ -154,7 +156,7 @@ invited_talks:
       presenting_author: null
       title: Incentives for Discovery in Computationally Hard Environments.
       conference: Society for Experimental Finance
-      location: "Tolouse, France"
+      location: "Toulouse, France"
       date: Jun 15
     - year: 2026
       authors:
@@ -211,7 +213,6 @@ invited_talks:
       conference: Society for Experimental Finance Conference
       location: "Maastricht, Netherlands"
       date: Jun 12
-      pdf: /slides/2025_06_12_SEF.pdf
     - year: 2024
       authors:
         - H. Andrabi
@@ -224,7 +225,7 @@ invited_talks:
       conference: Society for Experimental Finance Conference
       location: "Stavanger, Norway"
       date: Jun 25
-      pdf: /slides/2024_06_25_SEF.pdf
+      pdf: /slides/2024_06_05-sef-kme24.pdf
     - year: 2024
       authors:
         - H. Andrabi
@@ -240,6 +241,10 @@ invited_talks:
 
 grants_and_awards:
   awards_and_honors:
+    - year: 2026
+      title: "Health Promotion Grant, for the project: 'Breaking Barriers: FBE Community Trivia Nights for Connection and Wellbeing'"
+      organization: University of Melbourne
+      amount: "$9,000 AUD"
     - year: 2025
       title: Vernon Smith Young Talent Award
       organization: Society for Experimental Finance
@@ -259,6 +264,10 @@ grants_and_awards:
       amount: "$1,500 AUD"
 
   competitive_scholarships:
+    - year: 2026
+      title: Graduate Research Travelling Scholarship
+      organization: Faculty of Business and Economics, University of Melbourne
+      amount: "$4,000 AUD"
     - year: 2024
       title: International Study Scholarship
       organization: Faculty of Business and Economics, University of Melbourne

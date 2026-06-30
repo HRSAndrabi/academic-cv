@@ -327,7 +327,7 @@ def build_grants_awards(cv: dict) -> str:
     lines += [r"    \subsection*{Awards and Honors}", "", r"    \begin{tablist}"]
     for a in ga["awards_and_honors"]:
         body = (
-            f"{tex_escape(a['title'])}, {tex_escape(a['organization'])}."
+            f"{tex_escape(latex_quotes(a['title']))}, {tex_escape(a['organization'])}."
             f" {tex_escape(a['amount'])}"
         )
         if not body.endswith("."):
