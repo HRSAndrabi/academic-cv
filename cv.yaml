@@ -33,6 +33,16 @@ research_areas:
   - "Computational complexity theory: combinatorial problems, phase transitions, and human problem-solving."
   - Simulation modelling to evaluate the health and economic impacts of public health interventions.
 
+work_in_progress:
+  - title: "Can Markets Coordinate Discovery?"
+    authors: "H. Andrabi, P. Bossaerts, N. Yadav"
+  - title: "Cognitive Foundations of Choice under Computational Complexity"
+    authors: "H. Andrabi, P. Bossaerts, N. Yadav"
+  - title: "Economic Oracles: How Markets Reveal Optimal Solutions to Complex Problems"
+    authors: "H. Andrabi, P. Bossaerts, K. Ioannidis, R. Woods, N. Yadav"
+  - title: "Individual Differences in Non-Instrumental Information Seeking"
+    authors: "H. Andrabi, S. Bode, J. Stahl"
+
 publications:
   journal_articles:
     - year: 2025
@@ -167,6 +177,16 @@ invited_talks:
       title: Incentives for Discovery in Computationally Hard Environments.
       conference: International Association for Research in Economic Psychology, Motives and Preferences in Economic Decisions
       location: "Castellón, Spain"
+      date: Jun 9
+    - year: 2026
+      authors:
+        - H. Andrabi
+        - P. Bossaerts
+        - N. Yadav
+      presenting_author: P. Bossaerts
+      title: Cognitive Foundations of Choice under Computational Complexity.
+      conference: Asia-Pacific Meeting of the Economic Science Association
+      location: Melbourne, Australia
       date: Jun 9
     - year: 2026
       authors:

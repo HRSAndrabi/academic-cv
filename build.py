@@ -215,6 +215,33 @@ def build_research_areas(cv: dict) -> str:
     return "\n".join(lines)
 
 
+def _format_work_in_progress_entry(entry: dict) -> str:
+    """Format a work-in-progress entry as authors plus an enquoted title."""
+    authors = entry["authors"]
+    if isinstance(authors, str):
+        author_str = authors
+    else:
+        author_str = ", ".join(str(author) for author in authors)
+
+    title = tex_escape(latex_quotes(entry["title"]))
+    if title and title[-1] not in ".?!":
+        title += "."
+
+    return rf"{tex_escape(author_str)}.\ {enquote(title)}"
+
+
+def build_work_in_progress(cv: dict) -> str:
+    entries = cv.get("work_in_progress", [])
+    if not entries:
+        return ""
+
+    lines = [r"    \section*{Work in Progress}", "", r"    \begin{itemize}"]
+    for entry in entries:
+        lines.append(f"        \\item {_format_work_in_progress_entry(entry)}")
+    lines += [r"    \end{itemize}", ""]
+    return "\n".join(lines)
+
+
 def _format_journal_entry(article: dict) -> str:
     """Format a single journal article as a LaTeX tablist body string."""
     # Author string, with optional prefix ("With") for unusual authorship
@@ -445,6 +472,7 @@ def generate(yaml_path: str = "cv.yaml", tex_path: str = "cv.tex") -> None:
         "",
         build_education(cv),
         build_research_areas(cv),
+        build_work_in_progress(cv),
         build_publications(cv),
         build_invited_talks(cv),
         build_grants_awards(cv),
