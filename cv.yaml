@@ -29,19 +29,19 @@ education:
     year: 2019
 
 research_areas:
-  - Markets: information aggregation, market design, and the role of incentives.
-  - "Computational complexity theory: combinatorial problems, phase transitions, and human problem-solving."
-  - Simulation modelling to evaluate the health and economic impacts of public health interventions.
+  - Multi-agent AI: strategic interaction, coordination, and evaluation of LLM-agent systems.
+  - Markets: collective intelligence, the role of incentives, decentralised search and discovery.
+  - Computational complexity: combinatorial problems, phase transitions, and human/machine problem-solving.
 
 work_in_progress:
+  - title: "Aigora: Experimental Markets with LLM agents"
+    authors: "H. Andrabi, P. Bossaerts, C. Murawski, N. Yadav"
   - title: "Can Markets Coordinate Discovery?"
     authors: "H. Andrabi, P. Bossaerts, N. Yadav"
   - title: "Cognitive Foundations of Choice under Computational Complexity"
     authors: "H. Andrabi, P. Bossaerts, N. Yadav"
   - title: "Economic Oracles: How Markets Reveal Optimal Solutions to Complex Problems"
     authors: "H. Andrabi, P. Bossaerts, K. Ioannidis, R. Woods, N. Yadav"
-  - title: "Individual Differences in Non-Instrumental Information Seeking"
-    authors: "H. Andrabi, S. Bode, J. Stahl"
 
 publications:
   journal_articles:
