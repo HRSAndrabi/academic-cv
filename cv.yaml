@@ -7,7 +7,7 @@ meta:
   contact:
     email: hassan.andrabi@unimelb.edu.au
     phone: "+61 431 452 426"
-    website: https://hassan.andra.bi
+    website: https://hassanandrabi.com
 
 education:
   - degree: PhD
@@ -262,7 +262,11 @@ invited_talks:
 grants_and_awards:
   awards_and_honors:
     - year: 2026
-      title: "Health Promotion Grant, for the project: 'Breaking Barriers: FBE Community Trivia Nights for Connection and Wellbeing'"
+      title: "Research Travel Scholarship (M. A. Bartlett) for High Achieving Students"
+      organization: Faculty of Business and Economics, University of Melbourne
+      amount: "$2,200 AUD"
+    - year: 2026
+      title: "Health Promotion Grant, awarded for a Faculty level wellbeing initiative."
       organization: University of Melbourne
       amount: "$9,000 AUD"
     - year: 2025
@@ -304,6 +308,11 @@ grants_and_awards:
 teaching:
   - institution: University of Melbourne
     courses:
+      - year: 2026
+        name: Foundations of Business Analytics
+        level: undergraduate
+        role: TA
+        link: https://handbook.unimelb.edu.au/2026/subjects/cmce10002
       - year: 2026
         name: Behavioural Finance
         level: undergraduate
@@ -379,8 +388,7 @@ service:
       description: "COVIDVictoria, a web-based tool for COVID-19 Spatial Data Mapping. 2m users."
 
   service_to_university:
-    - year_start: 2026
-      year_end: present
+    - year: 2026
       role: Secretary
       organization: Faculty of Business and Economics PhD Student Society, University of Melbourne
 
